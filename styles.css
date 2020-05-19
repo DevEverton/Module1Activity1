@@ -1,0 +1,32 @@
+p {
+  font-family: sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-containerSliders,
+.flex-containerTextBoxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider {
+  margin-top: 1rem;
+  margin-left: 3.5rem;
+  width: 200px;
+}
+.inputText {
+  margin-top: 0.85rem;
+  margin-left: 3.5rem;
+  max-width: 4rem;
+}
+
+.box {
+  border: 1px solid lightgrey;
+  width: 100px;
+  height: 100px;
+  margin-left: 160px;
+}
