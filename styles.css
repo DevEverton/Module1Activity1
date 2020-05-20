@@ -24,7 +24,7 @@ p {
   max-width: 4rem;
 }
 
-.box {
+#box {
   border: 1px solid lightgrey;
   width: 100px;
   height: 100px;
