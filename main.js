@@ -8,9 +8,9 @@ function getSlidersValues() {
   let sliderRed = document.querySelector("#slider-red");
   let sliderGreen = document.querySelector("#slider-green");
   let sliderBlue = document.querySelector("#slider-blue");
-  sliderRed.addEventListener("change", slidersValueChange);
-  sliderGreen.addEventListener("change", slidersValueChange);
-  sliderBlue.addEventListener("change", slidersValueChange);
+  sliderRed.addEventListener("input", slidersValueChange);
+  sliderGreen.addEventListener("input", slidersValueChange);
+  sliderBlue.addEventListener("input", slidersValueChange);
 }
 
 function slidersValueChange(event) {
